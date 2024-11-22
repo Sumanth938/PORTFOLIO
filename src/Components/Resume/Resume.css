@@ -1,0 +1,133 @@
+.resume-layout{
+    width: 700px;
+    background-color: white;
+    padding: 50px;
+    font-size: 10px;
+    color: #384347;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+    font-weight: normal;
+    border: 1px solid gray;
+}
+
+.resume-layout .top-layout{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resume-layout .title{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.resume-layout .active-title{
+    color: var(--primary-color);
+    font-size: 12px;
+}
+
+.resume-layout .top-layout .details-layout{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.resume-layout .top-layout .details-layout>div{
+    margin-right: 20px;
+    color: #343334;
+}
+
+.resume-layout .body-layout{
+    display: grid;
+    grid-template-columns: 58% 40%;
+    gap: 20px;
+}
+
+.details-component{
+    padding: 10px 20px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.details-component .details-title{
+    margin-bottom: -15px;
+    color: #6a6e72;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.details-component hr{
+    color: #6a6e72;
+    border: 1px solid #6a6e72;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.details-component .details-inner-title{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #363546;
+    font-weight: 500;
+}
+
+.details-component .details-inner-title-active{
+    font-family: sans-serif;
+    font-size: 11px;
+    color: var(--primary-color);
+}
+
+.skills-layout span{
+    border-bottom: 1px solid var(--font-color);
+    padding-bottom: 3px;
+}
+
+/* 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .resume-layout{
+        width: 100%;
+        min-height: 100vh;
+        background-color: white;
+        padding: 50px;
+        font-size: 10px;
+        color: #384347;
+    }
+    
+.resume-layout .body-layout{
+    display: grid;
+    grid-template-columns: 58% 40%;
+    gap: 20px;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+    .resume-layout{
+        width: 100%;
+        min-height: 100vh;
+        background-color: white;
+        padding: 50px;
+        font-size: 10px;
+        color: #384347;
+    }
+    
+.resume-layout .body-layout{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 20px;
+}
+} */
+
+
+@media print {
+    .resume-layout{
+        width: fit-content !important;
+        border: none !important;
+        height: auto !important;
+        min-height: auto !important;
+        padding: 50px !important;
+    }
+    .print-button {
+      display: none; /* Hide the button when printing */
+    }
+  }

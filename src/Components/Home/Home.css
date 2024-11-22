@@ -1,0 +1,119 @@
+.intro-layout {
+    width: 100%;
+    padding: 90px 150px;
+    background-color: var(--bg-color-2);
+    min-height: 90vh;
+}
+
+.about-me-layout{
+    width: 100%;
+    padding: 90px 150px;
+    background-color: var(--bg-color);
+    min-height: 90vh;
+}
+
+.intro-layout Col , .about-me-layout Col{
+    width: 100%;
+}
+
+.skill-card{
+    width: 90%;
+    background-color: var(--bg-color);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 8px;
+border-radius: 12px;
+margin: 30px auto;
+transition: 0.4s;
+}
+.skill-card-2{
+    width: 90%;
+    background-color: var(--bg-color-2);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 8px;
+border-radius: 12px;
+margin: 30px auto;
+transition: 0.4s;
+}
+
+.skill-card:hover ,.skill-card-2:hover{
+    padding: 20px 32px;
+}
+
+.intro-img{
+width: 427px;
+height: 427px;
+border-radius: 24px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.footer-icons>a{
+    font-size: 30px;
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.footer-icons>a:hover{
+    color: var(--primary-color);
+}
+
+.scroll-top-icon {
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    transition: 0.3s;
+    box-shadow: 0px 1px 5.5px -3.5px #101828;
+    font-size: 30px !important;
+  }
+  
+  
+.scroll-top-icon:hover{
+    cursor: pointer;
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .intro-layout , .about-me-layout{
+        padding: 90px 90px;
+    }
+    .intro-img{
+        width: 327px;
+        height: 327px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .intro-layout{
+        padding: 30px 30px;
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        gap: 50px;
+    }
+    .about-me-layout{
+        padding: 30px 30px;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 50px;
+    }
+    .intro-img{
+        width: 227px;
+        height: 227px;
+    }
+}

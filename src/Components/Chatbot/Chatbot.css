@@ -1,0 +1,20 @@
+/* For the chatbot header */
+.rsc-header {
+    font-weight: bold !important; /* Ensure bold font weight */
+  }
+  
+  .rsc-header-title {
+    font-weight: bold;
+    color: white !important; /* Ensures the title is white */
+  }
+  
+  .rsc-scroll {
+    overflow-y: auto !important;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+  }
+  
+  .rsc-scroll::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+  
