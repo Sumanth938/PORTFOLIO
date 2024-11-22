@@ -21,7 +21,7 @@ const Layout = () => {
       <div style={{ minHeight: "100vh" }}>
         <Suspense fallback={<div><Loader /></div>}>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/PORTFOLIO" element={<Home />} />
             {/* <Route path="/resume" element={<Resume />} /> */}
           </Routes>
         </Suspense>
