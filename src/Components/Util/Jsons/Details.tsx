@@ -25,7 +25,7 @@ export const User_Details = {
       "Full Stack Developer with 1+ years of hands-on experience in building scalable, efficient full stack applications using FastAPI,Python, JavaScript, TypeScript, PostgreSQL, and React.js. Skilled in developing RESTful APIs, optimizing databases,and creating responsive user interfaces. Seeking to contribute to innovative projects by leveraging my expertise .",
     email: "sumanthyaddanapudi9@gmail.com",
     resume:
-      "https://drive.google.com/file/d/1V9l99gE-Suw3-7qeKlRYQIsIClQQArMb/view?usp=sharing",
+      "https://drive.google.com/file/d/1uAKUhOJDJ3YQlPXOG0VOXYEXatjeHEZp/view?usp=sharing",
     linkedin: {
       icon: <FaLinkedin />,
       name: "LinkedIn",
